@@ -1,23 +1,17 @@
-# TurboWarp Desktop
+# Fastomatic Desktop
 
-TurboWarp as a desktop app.
-
-If you're looking for downloads, head to: https://desktop.turbowarp.org/
+Fastomatic as a desktop app.
 
 Licensed under the GPLv3.0. See LICENSE for more information.
 
-Parts of this repository are based on [LLK/scratch-desktop](https://github.com/LLK/scratch-desktop).
-
-## Website
-
-The website source code is in the `docs` folder.
+Parts of this repository are based on [LLK/scratch-desktop](https://github.com/LLK/scratch-desktop) and [TurboWarp/desktop](https://github.com/TurboWarp/desktop).
 
 ## Development
 
 We use submodules, so clone using:
 
 ```bash
-git clone --recursive https://github.com/TurboWarp/desktop turbowarp-desktop
+git clone --recursive https://github.com/RenPT23/fastomatic fastomatic-desktop
 ```
 
 or run this after cloning:
@@ -120,7 +114,7 @@ TurboWarp Desktop uses a free code signing provided by [SignPath.io](https://abo
    * [GarboMuffin](https://github.com/GarboMuffin)
  * Privacy policy: https://desktop.turbowarp.org/privacy.html
 
-## Advanced customizations
+## Advanced customizations (TurboWarp, if done to Fastomatic also works)
 
 TurboWarp Desktop lets you configure custom JS and CSS without rebuilding the app.
 
@@ -136,6 +130,6 @@ Find TurboWarp Desktop's data path by using the list below or by clicking "?" in
 
 Create the file `userscript.js` in this folder to configure custom JS. Create the file `userstyle.css` in this folder to configure custom CSS. Completely restart TurboWarp Desktop (including all windows) to apply.
 
-## Uninstall
+## Uninstall (turbowarp)
 
 See https://desktop.turbowarp.org/uninstall
